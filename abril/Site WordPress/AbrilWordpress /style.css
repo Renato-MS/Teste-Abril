@@ -1,0 +1,274 @@
+
+
+#TodoConteudo{
+     width: 1310px;
+    margin: auto;
+    
+}
+
+.logoMenuNavegacao{
+    height: 65px;
+    
+    
+    
+
+    display: none;
+}
+
+
+#menu_ListaMarcas  li{
+ 
+   margin-left: 20px;
+    margin-right: 20px;
+  width: 190px;
+  display: block;
+}
+
+#MenuFixo{
+    
+    width: 1310px;
+    position: fixed;
+     
+    z-index: 1;
+}
+
+header nav{
+    margin: 0;
+    background-color:  #D41F1F;
+}
+
+header nav ul{
+    overflow: hidden;
+    list-style: none;
+}
+
+header nav ul li{
+    float: left;
+}
+
+header nav ul li a{
+    color: #fff;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    list-style: none;
+     line-height:60px;
+}
+
+header nav .menu_de_navegacao ul { 
+    position: absolute;
+    display: none;
+    
+}
+
+nav li:hover > a{
+    text-decoration: none;
+    background:#242424; 
+    color:#fff;
+}
+
+
+
+
+
+
+@media screen and (max-width:500px){
+    header nav{
+        width: 100%;
+        height: 100%;
+        left: -100%;
+        margin:0;
+        position: fixed;
+        
+    }
+    
+    header nav ul li{
+        display: block;
+        float: none;
+        border-bottom: 1px solid rgba(255,255,255, .3);
+    }
+    
+    .logoMenuNavegacao{
+        display: block;
+     
+        background:  #D41F1F;
+    }
+    
+    .botao, #icon_quatroRodas{
+        
+       
+        margin-left: 45px;
+    }
+    
+    
+    .logoMenuNavegacao{
+        display: block;
+        padding: 20px;
+        position: relative;
+       height: 100px;
+    }
+    #pesquisar, #logo, #maisAcessados{
+        display: none;
+    }
+    
+    
+    #menu_verTodosOsCarros,
+    #menu_ListaMarcas,
+    nav li:hover > ul{
+       
+       width: 0;
+       
+    }
+
+
+   
+    
+}
+
+
+nav li:hover > ul { 
+    display: block;
+    margin-left: -419px;
+    
+}
+
+
+#pesquisar{
+    width: 200px;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 20px;
+    border: none;
+    padding-left: 30px;
+    
+    
+}
+
+
+#logo{
+    width: 300px;
+    height: 80px;
+    background-color:  #D41F1F;
+    padding: 20px;
+    float: left;
+    margin: auto;
+}
+
+
+#menu_verTodosOsCarros{
+    margin-left: 39px;
+    padding: 0;
+    width: 170px; 
+    height: 200px;
+    background-color: #242424;
+    color: #fff;
+    position: absolute;    
+   
+}
+
+#menu_verTodosOsCarros p{
+  
+    padding: 5px;
+    background: #474747;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#menu_ListaMarcas{
+    display: list-item;
+ 
+    
+    width: 1349px; 
+    height: 200px;
+    background-color: #242424;
+    color: #fff;
+    position: relative;
+    left: 15%;
+}
+
+
+#menu_VerTudoDeTestes{
+    margin-left: -40px;
+    width: 180px; 
+    height: 200px;
+    background-color: #424242;
+    color: #fff;
+    position: absolute;    
+}
+
+#menu_VerTudoDeTestes p{    
+    
+    margin-top: 15px;
+    text-align: center;
+}
+
+#menu_VerTudoDeTestes p:first-child{
+    background: #242424;
+    padding: 5px;
+}
+
+#TESTE_subMenu{
+    
+    padding: 0;
+    width: 1270px; 
+    height: 200px;
+    background-color: #242424;
+    color: #fff;
+    position: relative;
+    left: 10%;
+}
+
+#menu_ListaMarcas > li{
+    padding: 10px;
+    display: inline-block;
+}
+
+#TESTE_subMenu > img{
+    width: 218px;
+    height: 124px;
+    margin-top: 30px;
+}
+
+#maisAcessados{
+    background-color: #242424;    
+    font-weight: bold;
+    padding-top: 80px;
+    width: 1310px; 
+}
+
+#maisAcessados a{
+    padding-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+}
+
+#maisAcessados span{
+    background-color: #D41F1F;
+    padding: 10px;
+    
+    margin-left: -20px;
+}
+
+
+.img_fusca_tiguan{
+   width: 305px;
+    height: 249px;
+}
+
+.img_kia_porche{
+   width: 335px;
+    height: 249px;
+}
+
+.img_bwm{
+    width: 670px;
+    height: 498px;
+}
+
+article{
+    margin-bottom: 20px;
+}
+
+
+
